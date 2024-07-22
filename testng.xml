@@ -1,0 +1,11 @@
+
+<suite name="My Suite">
+    <test name = "newtest">
+       <classes>
+        <class name="MyFirstAuatomationPackge.WebdriverManage"/>
+           <class name="MyFirstAuatomationPackge.Tables"/>
+
+
+       </classes> 
+    </test>
+</suite>
