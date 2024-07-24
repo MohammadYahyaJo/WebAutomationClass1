@@ -1,11 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+    <test name="Software Company">
+        <groups>
+            <run>
+                <exclude name="SmokeTest">
 
-<suite name="My Suite">
-    <test name = "newtest">
-       <classes>
-        <class name="MyFirstAuatomationPackge.WebdriverManage"/>
-           <class name="MyFirstAuatomationPackge.Tables"/>
+                </exclude>
+            </run>
+
+        </groups>
+        <classes>
+            <class name="Locators.HandelTables"/>
+            <class name = "Locators.LocatById"/>
+            <class name="MyFirstAuatomationPackge.WebdriverManage">
 
 
-       </classes> 
-    </test>
-</suite>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
